@@ -46,13 +46,13 @@ void loop()
       digitalWrite(m8, LOW);
       delay(100);
     }
-    else if(val == "turn on the LED")
+    else if(val == "turn on the sanitizer")
     {
       digitalWrite(m7, LOW);
       delay(100);
       digitalWrite(led, HIGH);
     }
-    else if(val == "turn off the LED")
+    else if(val == "turn off the sanitizer ")
     {
       digitalWrite(m7, LOW);
       delay(100);
